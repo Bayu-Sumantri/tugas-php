@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CPUSING CUY NGAB NGAB </title>
+	<title>PUSING CUY NGAB NGAB </title>
 </head>
 <body>
  

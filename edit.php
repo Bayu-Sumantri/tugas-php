@@ -5,7 +5,7 @@ if (isset($_GET['idedit'])) {
 $q = $conn->query("SELECT * FROM t_obat WHERE kode_obat = '$id'");
 foreach ($q as $dt) :
   ?>
-<h1>PlajariKode - CRUD dengan PHP MySQL</h1>
+<h1>Pusing cuyyyyy</h1>
   <h2>Halaman Ubah Data</h2>
 <form action="edit-proses.php" method="post">
     <input type="text" name="kode_obat" value="<?= $dt['kode_obat'] ?>">
