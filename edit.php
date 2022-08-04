@@ -8,10 +8,12 @@ foreach ($q as $dt) :
 <h1>PlajariKode - CRUD dengan PHP MySQL</h1>
   <h2>Halaman Ubah Data</h2>
 <form action="edit-proses.php" method="post">
-    <input type="hidden" name="kode_obat" value="<?= $dt['kode_obat'] ?>">
+    <input type="text" name="kode_obat" value="<?= $dt['kode_obat'] ?>">
     <input type="text" name="nama_obat" value="<?= $dt['nama_obat'] ?>">
     <input type="text" name="jenis_obat" value="<?= $dt['jenis_obat'] ?>">
     <input type="text" name="kategori" value="<?= $dt['kategori'] ?>">
+    <input type="text" name="harga" value="<?= $dt['harga'] ?>">
+    <input type="text" name="jumlah" value="<?= $dt['jumlah'] ?>">
     <input type="submit" name="submit" value="Ubah Data">
   </form>
 <?php
