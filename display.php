@@ -3,6 +3,7 @@
 <head>
 	<title>PUSING CUY NGAB NGAB </title>
 </head>
+<link rel="stlesheet" type="text/css" href="display.css">
 <body>
  
 	<h2>CRUD DATA OBAT</h2>
@@ -23,7 +24,7 @@
 		<?php 
 		include 'koneksi.php';
 		$no = 1;
-		$data = mysqli_query($conn,"select * from t_obat");
+		$data = mysqli_query($conn,"SELECT * FROM t_obat");
 		while($d = mysqli_fetch_array($data)){
 			?>
 			<tr>

@@ -2,9 +2,9 @@
 
 require_once("koneksi.php");
 
-$id = $_GET["idhapus"];
+$id = $_GET["hapus"];
 
-$sql = "DELETE FROM t_obat WHERE kode_obat=".$id;
+$sql = "DELETE FROM t_dokter WHERE kode_dokter=".$id;
 
 
 
@@ -12,7 +12,7 @@ if (mysqli_query($conn, $sql)) {
 
    // echo "Record deleted successfully";
 
-    header("location:display.php",true,301);
+    header("location:display.php");
 
     exit();
 

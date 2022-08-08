@@ -19,7 +19,7 @@
       header("location:form_mhs.php");
       function hapus($kode_obat) {
         global $conn;
-        mysqli_query($conn,"delate from t_obat where kode_obat = $kode_obat");
+        mysqli_query($conn,"delete FROM t_obat WHERE kode_obat = $kode_obat");
         return mysqli_affected_rows(($conn));
       }
      // mysqli_close($conn);

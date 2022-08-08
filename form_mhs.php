@@ -3,50 +3,103 @@
 
 <head>
     <tittle>FORM DATA NGOBAT</tittle>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <?php
-    echo "BY BANH HYU AND PAK TRIII"
-    ?>
+   <html>
+<head>
+  <meta charset="utf-8">
+  <title>DATA NGOBAT</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-    <fieldset>
-        <legend> FORM OBAT</legend>
-        <form method="POST" action="proses.php">
-            <table border="0">
-                <tr>
-                    <td>kode_obat</td>
-                    <td><input type="text" name="kode_obat" required></td>
-                </tr>
-                <tr>
-                    <td>nama_obat</td>
-                    <td><input type="text" name="nama_obat"></td>
-                </tr>
-                <tr>
-                    <td>jenis_obat</td>
-                    <td><input type="text" name="jenis_obat"></td>
-                </tr>
-                <tr>
-                    <td>kategori</td>
-                    <td><input type="text" name="kategori"></td>
-                </tr>
-                <tr>
-                    <td>harga</td>
-                    <td><input type="text" name="harga"></td>
-                </tr>
-                <tr>
-                    <td>jumlah</td>
-                    <td><input type="text" name="jumlah"></td>
-                </tr>
-                <tr>
-                    <td colspan="2"><input type="submit" name"simpan" value="simpan">
-                    <input type='button'value='display'onClick='top.location="display.php"'class='button'class="display">   
-                </td> 
-                </tr>
-            </table>
+<body>
+  <div class="login-root">
+    <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+      <div class="loginbackground box-background--white padding-top--64">
+        <div class="loginbackground-gridContainer">
+          <div class="box-root flex-flex" style="grid-area: top / start / 8 / end;">
+            <div class="box-root" style="background-image: linear-gradient(white 0%, rgb(247, 250, 252) 33%); flex-grow: 1;">
+            </div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 4 / 2 / auto / 5;">
+            <div class="box-root box-divider--light-all-2 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 6 / start / auto / 2;">
+            <div class="box-root box-background--blue800" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 7 / start / auto / 4;">
+            <div class="box-root box-background--blue animationLeftRight" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 8 / 4 / auto / 6;">
+            <div class="box-root box-background--gray100 animationLeftRight tans3s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 2 / 15 / auto / end;">
+            <div class="box-root box-background--cyan200 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 3 / 14 / auto / end;">
+            <div class="box-root box-background--blue animationRightLeft" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 4 / 17 / auto / 20;">
+            <div class="box-root box-background--gray100 animationRightLeft tans4s" style="flex-grow: 1;"></div>
+          </div>
+          <div class="box-root flex-flex" style="grid-area: 5 / 14 / auto / 17;">
+            <div class="box-root box-divider--light-all-2 animationRightLeft tans3s" style="flex-grow: 1;"></div>
+          </div>
+        </div>
+      </div>
+      <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+          <h1><a href="http://blog.stackfindover.com/" rel="dofollow">NGOBAT CUYYY</a></h1>
+        </div>
+        <div class="formbg-outer">
+          <div class="formbg">
+            <div class="formbg-inner padding-horizontal--48">
+              <span class="padding-bottom--15">MASUKAN DATA NGOBAT</span>
+              <form id="stripe-login">
+                <div class="field padding-bottom--24">
+                  <label for="text">kode_obat</label>
+                  <input type="text" name="text">
+                </div>
+                <div class="field padding-bottom--24">
+                  <div class="grid--50-50">
+                    <label for="text">nama_obat</label>
+                  </div>
+                  <input type="text" name="text">
+                </div>
+                <div class="field padding-bottom--24">
+                  <label for="text">jenis_obat</label>
+                  <input type="text" name="text">
+                </div>
+                <div class="field padding-bottom--24">
+                  <label for="text">kategori</label>
+                  <input type="text" name="text">
+                </div>
+                <div class="field padding-bottom--24">
+                  <label for="text">jumlah</label>
+                  <input type="text" name="text">
+                </div>
+                <div class="field padding-bottom--24">
+                  <label for="text">harga</label>
+                  <input type="text" name="text">
+                </div>
+                <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
+                  <label for="checkbox">
+                    <input type="checkbox" name="checkbox"> Stay signed in for a week
+                  </label>
+                </div>
+                <div class="field padding-bottom--24">
+                  <input type="submit" name="submit" value="Continue">
+                </div>
+                <div class="field padding-bottom--24">
+                <input type='button'value='display'onClick='top.location="display.php"'>   
+                </div>
+    </div>
+  </div>
+</body>
 
-        </form>
-    </fieldset>
+</html>
 </body>
 
 </html>
