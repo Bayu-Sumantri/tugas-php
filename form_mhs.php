@@ -15,6 +15,7 @@
 </head>
 
 <body>
+<form method="POST" action="proses.php">
   <div class="login-root">
     <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
       <div class="loginbackground box-background--white padding-top--64">
@@ -77,11 +78,11 @@
                   <input type="text" name="text">
                 </div>
                 <div class="field padding-bottom--24">
-                  <label for="text">jumlah</label>
+                  <label for="text">harga</label>
                   <input type="text" name="text">
                 </div>
                 <div class="field padding-bottom--24">
-                  <label for="text">harga</label>
+                  <label for="text">jumlah</label>
                   <input type="text" name="text">
                 </div>
                 <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
@@ -90,7 +91,7 @@
                   </label>
                 </div>
                 <div class="field padding-bottom--24">
-                  <input type="submit" name="submit" value="Continue">
+                  <input type="submit" name="simpan" value="Continue">
                 </div>
                 <div class="field padding-bottom--24">
                 <input type='button'value='display'onClick='top.location="display.php"'>   

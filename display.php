@@ -6,9 +6,9 @@
 <link rel="stlesheet" type="text/css" href="display.css">
 <body>
  
-	<h2>CRUD DATA OBAT</h2>
+	<h2>CRUD DATA NGOBAT</h2>
 	<br/>
-	<a href="form_mhs.php">+ TAMBAH DATA OBAT</a>
+	<a href="form_mhs.php">+ TAMBAH DATA NGOBAT</a>
 	<br/>
 	<br/>
 	<table border="1">
