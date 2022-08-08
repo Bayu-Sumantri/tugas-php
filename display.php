@@ -37,7 +37,7 @@
 				<td><?php echo $d['jumlah']; ?></td>
 				<td>
 					<a href="edit.php?idedit=<?php echo $d['kode_obat']; ?>">EDIT <?php echo $d['kode_obat']; ?></a>
-					<a href="hapus.php?idhapus=<?php echo $d['kode_obat']; ?>">HAPUS <?php echo $d['kode_obat']; ?></a>
+					<a href="hapusx.php?idhapus=<?php echo $d['kode_obat']; ?>">HAPUS <?php echo $d['kode_obat']; ?></a>
 				</td>
 			</tr>
 			<?php 
