@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="display.css">
 <?php
 include 'koneksi.php';
 if (isset($_GET['idedit'])) {
@@ -5,8 +6,10 @@ if (isset($_GET['idedit'])) {
 $q = $conn->query("SELECT * FROM t_obat WHERE kode_obat = '$id'");
 foreach ($q as $dt) :
   ?>
-<h1>Pusing cuyyyyy</h1>
+  <div class="text">
+  <h1>Pusing cuyyyyy</h1>
   <h2>Halaman Ubah Data</h2>
+  </div>
 <form action="edit-proses.php" method="post">
     <input type="text" name="kode_obat" value="<?= $dt['kode_obat'] ?>">
     <input type="text" name="nama_obat" value="<?= $dt['nama_obat'] ?>">

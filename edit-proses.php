@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
   $harga = $_POST['harga'];
   $jumlah = $_POST['jumlah'];
   $q = $conn->query("UPDATE t_obat SET kode_obat = '$kode_obat', nama_obat = '$nama_obat', jenis_obat = '$jenis_obat', kategori = '$kategori', harga = '$harga', jumlah = '$jumlah'  WHERE kode_obat = '$kode_obat'");
-  if ($q) {
+  if ($q) { 
     // pesan jika data berubah
     echo "<script>alert('Data produk berhasil diubah'); window.location.href='form_mhs.php'</script>";
   } else {

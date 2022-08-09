@@ -24,11 +24,9 @@
       background-position: 0% 50%;
     }
   }
-  h2 {      
-    text-align= center;
-    color= #00FFFF; 
-  }
-
-  table {
-    width : 90%;
-  }
+.text{
+    background-color: #000000;
+}
+#h1{
+    color: 	#0000FF;
+}
