@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
     // pesan jika data gagal diubah
     echo "<script>alert('Data produk gagal diubah'); window.location.href='form_mhs.php'</script>";
   }
-} else {
+} else {  
   // jika coba akses langsung halaman ini akan diredirect ke halaman index
   header('Location: display.php');
 }
